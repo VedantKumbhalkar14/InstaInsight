@@ -5,7 +5,7 @@ import { RiVideoAddLine } from 'react-icons/ri'
 import ProfileUserCard from './ProfileUserCard'
 
 const ProfileTabsPart = () => {
-    const [activeTab,setActiveTab] =useState();
+    const [activeTab,setActiveTab] =useState("Posts");
     const tabs = [
         {
             tab:"Posts",
